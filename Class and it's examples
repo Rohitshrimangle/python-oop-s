@@ -1,1 +1,17 @@
+# Example of class 
+#class is noting but a blueprint or action plan
+#object is a variable in which we can store value in python everything is object.
 
+class student:
+    def __init__(self):
+        self.name='rohit'
+        self.age=27
+        self.marks=100
+        
+    def talk(self):
+        print('my name is:',self.name)
+        print('my age is:',self.age)
+        print('my marks are:',self.marks)
+
+s1= student()
+s1.talk()
