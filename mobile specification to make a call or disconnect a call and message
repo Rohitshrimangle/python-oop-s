@@ -1,0 +1,14 @@
+#write a code with mobile specification to make a call or disconnect a call and message.
+
+class mobile:
+    def __init__(self,brand,model,price):
+        self.brand=brand
+        self.model=model
+        self.price=price
+        
+    def make_call(self,number):
+        print(f'{number} calling with brand {self.brand} model is {self.model} of ruppes {self.price}')
+              
+
+a=mobile('oppo',123,12000)
+a.make_call(7248920677)
